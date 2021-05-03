@@ -1,0 +1,8 @@
+[Version]
+Version=11.1
+[Designs]
+Array_Multiplier_modifiedBaughWooley=Array_Multiplier_modifiedBaughWooley.adf
+[Settings]
+Active=Array_Multiplier_modifiedBaughWooley
+[Expand]
+array_multiplier_modifiedbaughwooley=1

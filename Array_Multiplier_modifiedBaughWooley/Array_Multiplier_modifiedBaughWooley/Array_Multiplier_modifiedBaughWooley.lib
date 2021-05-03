@@ -1,0 +1,36 @@
+timestamp=1620034692530
+
+[~A]
+ModifyID=1
+Version=74
+
+[~MFT]
+0=14|0Array_Multiplier_modifiedBaughWooley.mgf|3653|0
+1=2|1Array_Multiplier_modifiedBaughWooley.mgf|807|0
+3=2|3Array_Multiplier_modifiedBaughWooley.mgf|328|0
+
+[array_multiplier]
+A/structure=21|../src/ArrayMultiplier.vhd|30|1*807
+BinI32/structure=3*328
+I=0*1943
+I/structure=0*3653
+M=11|0|ve4|1620034692353|../src/ArrayMultiplier.vhd|0*1523*0x0de12b9eb773b207a1436348020ae49222ea5de7|0*1847*0x23b75c12e3e89f2ef000564498faa8c2
+M/structure=21|0|ve4|1620034692358|../src/ArrayMultiplier.vhd|0*2152*0xdba2a8f4dc3b50200097dbd4c0b4b70f5321581e|0*3544*0x20116f55b147878295aeff36dce7fc50
+R=../src/ArrayMultiplier.vhd|22
+Version=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|c2c9e0651d6f244fb0c13b48a0fbd3f7d842959ba64b05dc072396e4a7d28e2fc219c54902c4a4417c80a81ada4d84c1
+Version/structure=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|eab8953fe0a98340e036eda18bd6d669520908b071c9b2c5bba6c893b05fa680c8d5bdee915c6e99521ec388a8500edc
+
+[full_adder]
+A/structure=21|../src/ArrayMultiplier.vhd|10|1*0
+BinI32/structure=3*0
+I=0*521
+I/structure=0*1056
+M=11|0|ve4|1620034692331|../src/ArrayMultiplier.vhd|0*195*0xb1d6eb635891443dc60d0e1a386bbf4998a5c2fc|0*431*0x23b75c12e3e89f2ef000564498faa8c2
+M/structure=21|0|ve4|1620034692336|../src/ArrayMultiplier.vhd|0*724*0x9e42e20e283009e873ff26a17d6a1e21c90a6414|0*953*0x20116f55b147878295aeff36dce7fc50
+R=../src/ArrayMultiplier.vhd|5
+Version=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|b6bc4c72c6b4732d30366d04e0b9d81ca93b35da59acef6f28d70118359e933e6bb6f304552475ef72c9d21683f62ab9
+Version/structure=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|eab8953fe0a98340e036eda18bd6d669520908b071c9b2c5bba6c893b05fa68039fc29257764ed5ab2443020ba4bdc72
+
+[~U]
+array_multiplier=Array_Multiplier 11|0*1269|
+full_adder=Full_Adder 11|0*0|

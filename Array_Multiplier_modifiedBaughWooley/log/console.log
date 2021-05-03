@@ -1,0 +1,81 @@
+# Design Explorer: Shortcut to "c:\My_Designs\Array_Multiplier_modifiedBaughWooley\Array_Multiplier_modifiedBaughWooley.aws" workspace added.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -O3 -e 100 -work Array_Multiplier_modifiedBaughWooley -2002  $dsn/src/ArrayMultiplier.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/My_Designs/Array_Multiplier_modifiedBaughWooley/src/ArrayMultiplier.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "structure" of Entity "Full_Adder"
+# Compile Entity "Array_Multiplier"
+# Compile Architecture "structure" of Entity "Array_Multiplier"
+# Top-level unit(s) detected:
+# Entity => Array_Multiplier
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+Array_Multiplier Array_Multiplier structure
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7559 kB (elbread=1311 elab2=5990 kernel=258 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Array_Multiplier_modifiedBaughWooley\src\wave.asdb
+#  03:08 PM, 03 May 2021
+#  Simulation has been initialized
+# KERNEL: Error: KERNEL_0066 Value 5 does not belong to type STD_LOGIC.
+# VSIM: Error: Cannot force signal "/Array_Multiplier/A" with formula "5".
+# Error: Cannot force signal /Array_Multiplier/B with  stimulator type.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7559 kB (elbread=1311 elab2=5990 kernel=258 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Array_Multiplier_modifiedBaughWooley\src\wave.asdb
+#  03:12 PM, 03 May 2021
+#  Simulation has been initialized
+# add wave -noreg {/Array_Multiplier/A}
+# 1 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Array_Multiplier_modifiedBaughWooley/src/wave.asdb'.
+# add wave -noreg {/Array_Multiplier/B}
+# 1 signal(s) traced.
+# add wave -noreg {/Array_Multiplier/A}
+# KERNEL: Warning: KERNEL_0291 Signal '/Array_Multiplier/A' has already been traced.
+# 0 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Array_Multiplier_modifiedBaughWooley/src/wave.asdb'.
+# add wave -noreg {/Array_Multiplier/B}
+# KERNEL: Warning: KERNEL_0291 Signal '/Array_Multiplier/B' has already been traced.
+# 0 signal(s) traced.
+# add wave -noreg {/Array_Multiplier/mode}
+# 1 signal(s)

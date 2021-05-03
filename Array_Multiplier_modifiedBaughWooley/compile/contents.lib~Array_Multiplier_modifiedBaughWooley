@@ -1,0 +1,5 @@
+1
+~E 1 "../src/ArrayMultiplier.vhd" 22 Array_Multiplier
+~A 1 "../src/ArrayMultiplier.vhd" 30 structure
+~E 1 "../src/ArrayMultiplier.vhd" 5 Full_Adder
+~A 1 "../src/ArrayMultiplier.vhd" 10 structure
